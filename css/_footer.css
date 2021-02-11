@@ -1,0 +1,119 @@
+.footer {
+    margin: 0 auto;
+    width: 1600px;
+    height: 605px;
+    background-color: #212227;
+    padding: 101px 209px 106px ;
+}
+.footer .footer__inner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 280px 171px 480px;
+    justify-content: space-between;
+    grid-template-areas:
+    "text-block contacts subscribe"
+    "text-block follow sponsor";
+
+}
+.footer .footer__text-block {
+    grid-area: text-block;
+}
+.footer .footer__contacts {
+    grid-area: contacts;
+}
+.footer .footer__follow {
+    grid-area: follow;
+}
+.footer .footer__subscribe {
+    grid-area: subscribe;
+}
+.footer .footer__sponsor {
+    margin-top: 27px;
+    grid-area: sponsor;
+}
+.footer .footer__title {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f9f9f9;
+    text-transform: uppercase;
+}
+.footer .footer__descr {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #919191;
+}
+.footer .footer__descr span{
+    text-transform: uppercase;
+}
+.footer .footer__link {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #919191;
+}
+.footer .footer__enter-block {
+    position: relative;
+    margin-top: 19px;
+}
+.footer .footer__enter {
+    width: 480px;
+    height: 60px;
+    padding: 22px 19px 21px 20px;
+    opacity: 0.4;
+    background-color: #909193;
+    border: none;
+    outline: none;
+}
+.footer .footer__enter::placeholder {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.footer .footer__arrow {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    right: 19px;
+    transform: translateY(-50%);
+    opacity: 0.6;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(145, 145, 145, 0.6);
+}
+.footer .footer__logo {
+    font-family: 'Lato', sans-serif;
+    width: 80px;
+    height: 80px;
+    border: solid 1px #f4f8fb;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-align: left;
+    color: #f2f7fb;
+    text-align: center;
+    padding-top: 32px;
+    margin-right: 20px;
+}
+.footer .footer__logo:last-child {
+    margin-right: 0;
+}
+.footer .footer__logo-wrapper {
+    margin-top: 25px;
+    display: flex;
+}

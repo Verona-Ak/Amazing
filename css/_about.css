@@ -1,0 +1,29 @@
+.about {
+    margin: 0 auto;
+    width: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+}
+.about .about__left{
+    display: block;
+}
+.about .about__right {
+    background-color: #f3f1ef;
+    padding: 113px 255px 101px 56px;
+}
+.about .about__title {
+    color: #666666;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    color: #666666;
+}
+.about .about__descr {
+    margin-top: 38px;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: -0.9px;
+    text-align: left;
+    color: #666666;
+}
